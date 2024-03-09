@@ -1,0 +1,35 @@
+{
+  "name": "node-kcp-algo",
+  "version": "1.0.0",
+  "description": "KCP protocol for Node.js",
+  "dependencies": {
+    "node-addon-api": "^6.0.0"
+  },
+  "devDependencies": {
+    "bindings": "^1.5.0",
+    "chai": "latest",
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "latest",
+    "grunt-mocha-test": "latest",
+    "mocha": "^7.0.0"
+  },
+  "scripts": {
+    "test": "grunt",
+    "install": "node-gyp rebuild",
+    "build:dev": "node-gyp -j 16 build --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cosmosrat/node-kcp-algo.git"
+  },
+  "keywords": [
+    "kcp",
+    "protocol",
+    "game",
+    "server"
+  ],
+  "author": "bruce48x",
+  "license": "Apache-2.0",
+  "gypfile": true,
+  "homepage": "https://github.com/cosmosrat/node-kcp-algo.git"
+}
