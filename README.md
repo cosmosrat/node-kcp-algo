@@ -1,12 +1,6 @@
 node-kcp-x
 ======================================
 
-[![Build Status][1]][2]
-
-[1]: https://api.travis-ci.org/leenjewel/node-kcp.svg?branch=master
-[2]: https://travis-ci.org/leenjewel/node-kcp
-
-
 [KCP Protocol](https://github.com/skywind3000/kcp) for Node.js
 
 修改自 [node-kcp](https://github.com/leenjewel/node-kcp)，使用 [node-addon-api](https://github.com/nodejs/node-addon-api) 重写
